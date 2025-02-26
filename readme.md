@@ -1,9 +1,7 @@
 # Surface Repository
----
-title: Surface Reconstruction Repository
+
 author: Timo Blattner
 date: 26.02.2025
----
 
 This repository contains the tracings, surface reconstructions and results for our brain collection. The metadata include an overview of the species, sequences and tracings. 
 
