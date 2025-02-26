@@ -1,5 +1,5 @@
 ,lh.white_volume,lh.gm_volume,rh.white_volume,rh.gm_volume,lh.mean_thickness_direct,lh.sd_thickness_direct,rh.mean_thickness_direct,rh.sd_thickness_direct,lh.mean_thickness_fs,lh.sd_thickness_fs,rh.mean_thickness_fs,rh.sd_thickness_fs
-porpoise,86890.07,120337.57,88970.52,120921.23,6.02,3.37,6.61,3.48,3.11,1.71,3.34,1.72
+HP1,86890.07,120337.57,88970.52,120921.23,6.02,3.37,6.61,3.48,3.11,1.71,3.34,1.72
 deer,25255.59,52570.43,26227.04,52443.69,4.58,2.39,4.61,2.33,2.30,1.23,2.40,1.20
 sealion,94947.14,131793.32,94303.01,131648.60,6.19,3.02,6.35,3.05,3.92,1.54,4.09,1.55
 PWSD1,227780.67,251718.80,232801.39,258359.11,5.78,3.42,5.97,3.41,2.93,1.59,3.02,1.51

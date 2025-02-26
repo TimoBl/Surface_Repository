@@ -1,18 +1,18 @@
 # Surface Repository
 
-author: Timo Blattner
-date: 26.02.2025
+author: Timo Blattner\
+date: 26.02.2025\
 
-This repository contains the tracings, surface reconstructions and results for our brain collection. The metadata include an overview of the species, sequences and tracings. 
+This repository contains the tracings, surface reconstructions and results for our brain collection. The metadata include an overview of the species, sequences and tracings
 
 
 ## Tracings
 
-Here are all the manual tracings done with Osirix which we relied on for the project. Each scans has tracings of one hemisphere for the pial surface (GM), white matter surface (WM), cerebellum (CEREBELLUM). We also have a broad reconstruction of the hull (OUTER), and the tracings might include other tracings with are not relevant.
+Here are all the manual tracings done with Osirix which we relied on for the project. Each scans has tracings of one hemisphere for the pial surface (GM), white matter surface (WM), cerebellum (CEREBELLUM). We also have a broad reconstruction of the hull (OUTER), and the tracings might include other tracings with are not relevant
 
 ## Surface Results
 
-These surfaces were generate using a [https://github.com/TimoBl/Few-Shot-Cortex](few-shot reconstruction method). Here we have the results for each hemisphere as a surface file.
+These surfaces were generate using a [https://github.com/TimoBl/Few-Shot-Cortex](few-shot-reconstruction-method). Here we have the results for each hemisphere as a surface file.
 * .pial : pial surface
 * .white : white matter surface
 * .exp : exposed surface using a rolling ball method
@@ -24,11 +24,11 @@ We also have point wise thickness measurement using DiReCT's integration (thickn
 freeview -f *.white rh.pial:overlay=rh_thickness_direct lh.pial:overlay=lh_thickness_direct 
 ```
 
-We also have the results which were extracted directly from the surface (results_surf.csv), and the ones from the segmentation and direct (results_direct.csv).
+We also have the results which were extracted directly from the surface (results_surf.csv), and the ones from the segmentation and direct (results_direct.csv)
 
 
 ## Stitcher Results
 
--- for the cerebellum and the outer hull it's better to reconstruct them with Stitcher
--- the tracings can easily be accessed in the JSON file, and you can filter the regions of interests using the Name tag 
--- tracings might include too many points for Stitcher, so might be worth to subsample them 
+* for the cerebellum and the outer hull it's better to reconstruct them with Stitcher
+* the tracings can easily be accessed in the JSON file, and you can filter the regions of interests using the Name tag (GM, WM, EXP, CEREBELLUM, OUTER)
+* tracings might include too many points for Stitcher, so might be worth to subsample them 
