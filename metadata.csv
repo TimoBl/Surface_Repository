@@ -1,0 +1,14 @@
+Animal,Species,Codename,Collected from,Cetacean,Zero-Shot,Field Strength (T),Sequence,Image Size,Tracings every,Resolution ISO,Orientation,h_idx (split),Intensity Threshold,Training Slices,Comment
+Steller Sea Lion ,Eumetopias jubatus ,sealion,Hokkaido Lab,0,0,3,t2_space Ax iso_0.78mm,"(304, 320, 256)",1,0.78,PIL,128,100,"np.arange(60, 245, 1)",It is perfect!
+Raccoon ,Procyon lotor ,raccoon,Hokkaido Lab,0,0,3,t2_space Ax iso_i0.63,"(192, 172, 192)",1,0.68,PIR,85,50,"np.arange(40, 130, 1)",Great
+Sika Deer,Cervus nippon ,deer,Hokkaido Lab,0,0,3,t2_space Ax iso_i0.63,"(171, 876, 632)",1,0.78,LIP,320,100,"np.arange(3, 145, 1)","Usable, but has some problems sub-cortically Also resolution is way different, which might effect measurements"
+Guiana dolphin,Sotalia guianensis ,sotalia,MetaBio Lab,1,0,7,3d_t2_spcR_iso_380um,"(320, 512, 384)",5,0.38,RAI,265,100,"np.arange(40, 281, 5)","Usable, but has some problems sub-cortically. Also asymmetrical and has remaining artefacts bellow"
+Toninha,Pontoporia blainvillei ,pontoporia,MetaBio Lab,1,0,7,3d_T2space_270um_iso,"(384, 384, 384)",5,0.27,IAR,365,100,"np.arange(56, 317, 5)","Good, but has some artefacts loop, and that’s only a single hemisphere!"
+Baird Beaked Whale,Berardius bairdii ,BBW49,Hokkaido Lab,1,0,3,_t2_space_cor_iso,"(320, 320, 386)",10,0.9,PLI,196,10,"np.arange(46, 267, 10)",Usable but has some artefacts. Maybe use the cerebellum. Also bad quality IMAGE
+Pacific White Sided Dolphin ,Lagenorhynchus obliquidens ,PWSD1,Hokkaido Lab,1,0,3,_t2_space_tra_iso0.86mm,"(224, 256, 256)",10,0.86,IPL,129,50,"np.arange(52, 183, 10)","Usable, but other hemi has artefacts. Worst case we remove manually. The difference we see is the problem"
+Human,Homo sapiens sapiens,human,Hospital Bern,0,0,3,t1-mpr-adni3-sag-iso-1mm-ns,"(256, 256, 256)",1,1,AIR,129,1,"np.arange(28, 200, 1)","sub-POB-HC0001_ses-17473A_acq-t1-mpr-adni3-sag-iso-1mm-ns-TR-2.3-IR-0.9_run-2, with the tracings derived from FreeSurfer"
+Harbour Porpoise,Phocoena phocoena,HP1,Hokkaido Lab,1,0,3,_t2_space_Ax_iso_0.78mm,"(304, 320, 256)",10,0.78,PIL,132,50,"np.arange(120, 231, 10)",Good quality image
+Racoon 2 (z),Procyon lotor ,raccoon2,Hokkaido Lab,0,1,3,t2_space Ax iso_i0.63,"(192, 171, 192)",0,0.63,PIL,101,50,,Was zero-shot with the racoon model
+Bear (z),Ursus arctos ,bear4,Hokkaido Lab,0,1,3,t2_space Ax iso_0.78mm,"(256, 304, 320)",0,0.78,PIL,129,50,,Was zero-shot with the sea lion model
+Seal 1 (z),Phoca Largha ,seal4,Hokkaido Lab,0,1,3,t2_space Ax iso_0.78mm,"(256, 304, 320)",0,0.78,PIL,130,10,,Was zero-shot with the sea lion model
+Seal 2 (z),Phoca Largha ,seal5,Hokkaido Lab,0,1,3,t2_space Ax iso_0.78mm,"(256, 304, 320)",0,0.78,PIL,133,10,,Was zero-shot with the sea lion model
