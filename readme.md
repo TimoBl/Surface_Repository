@@ -25,10 +25,3 @@ freeview -f *.white rh.pial:overlay=rh_thickness_direct lh.pial:overlay=lh_thick
 ```
 
 We also have the results which were extracted directly from the surface (results_surf.csv), and the ones from the segmentation and direct (results_direct.csv)
-
-
-## Stitcher Results
-
-* for the cerebellum and the outer hull it's better to reconstruct them with Stitcher
-* the tracings can easily be accessed in the JSON file, and you can filter the regions of interests using the Name tag (GM, WM, EXP, CEREBELLUM, OUTER)
-* tracings might include too many points for Stitcher, so might be worth to subsample them 
